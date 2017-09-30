@@ -28,7 +28,7 @@ export default class Login extends Component {
       <View style={{width:((width/2) + 40), padding:5, borderTopLeftRadius:40, borderBottomLeftRadius:50, 
         borderTopRightRadius:40, borderBottomRightRadius:40, flexDirection:'row', backgroundColor:'rgba(0,0,0,0.5)', alignItems:'center'}}>
       <TouchableOpacity style={styles.circle}>
-      <Image source={require('../images/bird.png')} resizeMode="contain" style={{height:30, width:30}} />
+      <Image source={require('../images/facebook2.png')} resizeMode="contain" style={{height:50, width:50}} />
       </TouchableOpacity>
       <Text style={{color:'#fff', fontSize:14, margin:12}}>Login with Facebook</Text>
       </View>
