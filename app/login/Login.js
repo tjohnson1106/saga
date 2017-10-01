@@ -7,7 +7,7 @@ import {
   Image,
   Dimensions,
   TouchableOpacity,
-  View,
+  View
 } from 'react-native';
 
 let {height, width} = Dimensions.get('window');
@@ -75,6 +75,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-function newFunction() {
-    from ;
-}
